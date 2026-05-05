@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Button Click</title>
+</head>
+<body>
+    <h1>HELLO GUYS!</h1>
+
+    <script>
+       
+        const btn = document.createElement("button");
+        btn.innerHTML = "Click Me";
+
+       
+        btn.addEventListener("click", function () {
+            alert("Button clicked!");
+        });
+
+      
+        document.body.appendChild(btn);
+    </script>
+</body>
+</html>
